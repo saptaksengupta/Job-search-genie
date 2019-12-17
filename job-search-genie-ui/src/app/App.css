@@ -1,0 +1,80 @@
+.App {
+  /* text-align: center; */
+  padding: 55px 25px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.autocomplete-searchbox {
+  border: 1px solid #efefef;
+  margin: 5px 0;
+  padding: 5px;
+  z-index: 100;
+  position: absolute;
+  width: 92%;
+  background-color: #efefef;
+}
+
+.autocomplete-searchbox ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.autocomplete-searchbox ul li {
+  list-style: none;
+  cursor: pointer;
+  padding: 7px;
+}
+
+.autocomplete-searchbox ul li:hover {
+  background-color: #7f8c8d;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.job-list-item {
+  border: 1px solid #efefef;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.loc-desc {
+  color: #7f8c8d;
+  font-size: 17px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
