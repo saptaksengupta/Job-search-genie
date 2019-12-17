@@ -1,6 +1,15 @@
 # Job-search-genie
 A simple Job Search Demo Application By using ReactJs as frontend and NodeJs as backend.
 
+# Just to start with
+```bash
+git clone git@github.com:saptaksengupta/Job-search-genie.git
+OR
+git clone https://github.com/saptaksengupta/Job-search-genie.git
+
+cd job-search-genie
+```
+
 # Backend Intro
 ## Installation
 
